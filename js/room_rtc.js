@@ -216,7 +216,7 @@ let toggleScreen = async (e) => {
 
 let leaveStream = async (e) => {
     e.preventDefault()
-
+window.location.href = 'index.html';
     document.getElementById('join-btn').style.display = 'block'
     document.getElementsByClassName('stream__actions')[0].style.display = 'none'
 
